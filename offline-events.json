@@ -1,0 +1,61 @@
+[ {
+  "id" : 1,
+  "title" : "Blockchain Education Seminar",
+  "description" : "A seminar to educate about the fundamentals and applications of blockchain technology.",
+  "image" : "https://example.com/images/seminar.jpg",
+  "location" : "1234 Blockchain Blvd, Crypto City",
+  "date_start" : "2024-07-01T10:00:00.000Z",
+  "date_end" : "2024-07-01T16:00:00.000Z",
+  "cost" : 100,
+  "status" : "planned"
+}, {
+  "id" : 24,
+  "title" : "Blockchain Education Seminar",
+  "description" : "A seminar to educate about the fundamentals and applications of blockchain technology.",
+  "image" : "https://example.com/images/seminar.jpg",
+  "location" : "1234 Blockchain Blvd, Crypto City",
+  "date_start" : "2024-07-01T10:00:00.000Z",
+  "date_end" : "2024-07-01T16:00:00.000Z",
+  "cost" : 100,
+  "status" : "planned"
+}, {
+  "id" : 25,
+  "title" : "Blockchain Education Seminar",
+  "description" : "A seminar to educate about the fundamentals and applications of blockchain technology.",
+  "image" : "https://example.com/images/seminar.jpg",
+  "location" : "1234 Blockchain Blvd, Crypto City",
+  "date_start" : "2024-07-01T10:00:00.000Z",
+  "date_end" : "2024-07-01T16:00:00.000Z",
+  "cost" : 100,
+  "status" : "planned"
+}, {
+  "id" : 36,
+  "title" : "Blockchain Education Seminare",
+  "description" : "A seminar to educate about the fundamentals and applications of blockchain technology.",
+  "image" : "https://example.com/images/seminar.jpg",
+  "location" : "1234 Blockchain Blvd, Crypto City",
+  "date_start" : "2024-07-01T08:00:00.000Z",
+  "date_end" : "2024-07-01T14:00:00.000Z",
+  "cost" : 100,
+  "status" : "planned"
+}, {
+  "id" : 35,
+  "title" : "Blockchain Education Seminare",
+  "description" : "A seminar to educate about the fundamentals and applications of blockchain technology.",
+  "image" : "https://example.com/images/seminar.jpg",
+  "location" : "1234 Blockchain Blvd, Crypto City",
+  "date_start" : "2024-07-01T08:00:00.000Z",
+  "date_end" : "2024-07-01T14:00:00.000Z",
+  "cost" : 100,
+  "status" : "planned"
+}, {
+  "id" : 29,
+  "title" : "tst",
+  "description" : "tst",
+  "image" : "http://tst.com/tst",
+  "location" : "aaa",
+  "date_start" : "2024-07-09T12:00:00.000Z",
+  "date_end" : "2024-07-09T13:00:00.000Z",
+  "cost" : 10,
+  "status" : "aa"
+} ]

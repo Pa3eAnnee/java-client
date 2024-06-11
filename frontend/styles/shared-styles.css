@@ -1,0 +1,37 @@
+a[highlight] {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+/* frontend/styles/shared-styles.css */
+.switch {
+    --lumo-checkbox-size: var(--lumo-size-m);
+    --lumo-checkbox-border-radius: var(--lumo-border-radius-m);
+    --lumo-primary-color: var(--lumo-success-color);
+    --lumo-primary-text-color: var(--lumo-success-color-50pct);
+    --lumo-primary-contrast-color: var(--lumo-success-color-10pct);
+}
+
+.switch::part(checkbox) {
+    width: calc(var(--lumo-checkbox-size) * 2);
+    height: var(--lumo-checkbox-size);
+    border-radius: var(--lumo-checkbox-border-radius);
+}
+
+.switch::part(checkbox)::before {
+    border-radius: var(--lumo-checkbox-border-radius);
+    background-color: var(--lumo-primary-contrast-color);
+}
+
+.switch::part(checkbox)::after {
+    width: var(--lumo-checkbox-size);
+    height: var(--lumo-checkbox-size);
+    border-radius: 50%;
+    background-color: var(--lumo-primary-color);
+    transition: transform 0.2s;
+    transform: translateX(0);
+}
+
+.switch[checked]::part(checkbox)::after {
+    transform: translateX(calc(var(--lumo-checkbox-size)));
+}
